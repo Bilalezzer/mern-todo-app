@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 32rem;
+	margin: 1.25rem auto;
+}
+
+.form {
+	background-color: #918f8f;
+	border-radius: 6px;
+	padding: 1.25rem;
+	display: flex;
+	align-items: center;
+}
+
+.input {
+	padding: 0.625rem;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	flex: 1;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.btn {
+	border: none;
+	background-color: #008cff;
+	color: #fff;
+	padding: 0.75rem 0.625rem;
+	border-radius: 6px;
+	margin-left: 0.625rem;
+	cursor: pointer;
+}
+
+.tasks {
+	background-color: #918f8f;
+	margin-top: 1.25rem;
+	border-radius: 6px;
+	padding: 1.25rem;
+	display: grid;
+	gap: 1rem;
+}
+
+.tasks .task {
+	background-color: #fff;
+	padding: 0.625rem;
+	border-radius: 6px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.3s;
+	border: 1px solid #ccc;
+}
+
+.tasks .task:hover {
+	background-color: #f7f7f7;
+}
+
+.tasks .task span {
+	font-weight: bold;
+	font-size: 10px;
+	background-color: red;
+	color: white;
+	padding: 2px 6px;
+	border-radius: 4px;
+	cursor: pointer;
+}
